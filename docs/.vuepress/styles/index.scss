@@ -2,3 +2,27 @@
   --vp-c-accent: #5154e0 !important;
   --vp-c-accent-hover: #5154e0 !important;
 }
+
+@media (min-width: 900px) {
+  .vp-hero {
+    text-align: left;
+    overflow: hidden;
+    padding: 3rem 0;
+
+    .vp-hero-image {
+      float: right;
+    }
+
+    #main-title {
+      padding-top: 3rem;
+    }
+
+    .vp-hero-description {
+      max-width: 100%;
+    }
+
+    .vp-hero-actions {
+      justify-content: start;
+    }
+  }
+}

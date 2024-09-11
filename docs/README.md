@@ -1,6 +1,5 @@
 ---
 home: true
-title: Home
 heroImage: /image/logo.svg
 actions:
   - text: 开始使用
