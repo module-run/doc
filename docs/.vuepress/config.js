@@ -6,14 +6,14 @@ export default defineUserConfig({
     lang: 'zh-CN',
 
     title: 'ModuleRun',
-    description: '专业的可视化开发工具',
+    description: '🎉 可视化硬件编程套件 🎉',
 
     theme: defaultTheme({
         logo: '/image/logo.svg',
         navbar: [
             {text: '首页', link: '/'},
             {text: '开始使用', link: '/get-started'},
-            {text: '树莓派', link: '/agent/raspberry-pi'},
+            // {text: '树莓派', link: '/agent/raspberry-pi'},
             {text: '更新日志', link: '/change-log'},
         ],
     }),

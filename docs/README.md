@@ -6,28 +6,27 @@ actions:
   - text: 开始使用
     link: /getting-started.html
     type: primary
-
   - text: Github
-    link: https://vuejs.press/guide/introduction.html
+    link: https://github.com/module-run/studio
+    type: secondary
+  - text: Gitee
+    link: https://gitee.com/module-run/studio
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 拖拉拽编程
+    details: 支持拖拽式编程，无需编写代码，即可完成功能开发。
+  - title: Python代码编程
+    details: 支持Python代码编程，可在拖拉拽编程的基础上，进行更多的功能扩展。
+  - title: 多模块支持
+    details: 支持多模块，多模块之间可以相互调用，实现更多的功能。
+  - title: 扩展一键安装
+    details: 支持扩展一键安装，无需手动下载，即可安装扩展。
+  - title: 多设备连接
+    details: 支持多设备连接，可以在多个设备上进行编程，实现更多的功能。
+  - title: 多项目管理
+    details: 支持多项目管理，可以在一个软件中管理多个项目，实现更多的功能。
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: GPL-3.0 Licensed | Copyright © 2024-present by ModuleRun
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
