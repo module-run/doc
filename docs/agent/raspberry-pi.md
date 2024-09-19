@@ -19,7 +19,7 @@
 ### 2. 树莓派操作系统环境配置
 #### 2.1 一键脚本配置
 ```
-xxx.sh
+curl -sSL https://xxx/insaller.sh -o installer.sh && sh installer.sh
 ```
 #### 2.2 手动配置
 ##### 2.2.1 升级并安装python3.8
@@ -31,7 +31,7 @@ sudo apt-get upgrade
 wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz
 tar zxvf Python-3.8.0.tgz
 cd Python-3.8.0
-sudo ./configure<!--  -->
+sudo ./configure
 sudo make
 sudo make install
 #删除并替换python2为python3.8
@@ -45,11 +45,16 @@ pip install virtualenv
 pip install virtualenvwrapper
 #配置环境变量
 sudo nano ~/.bashrc
-export WORKON_HOME=$HOME/virtualenvs
-export PROJECT_HOME=$HOME/codes
+export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/.local/bin/virtualenv
 VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 source ~/.local/bin/virtualenvwrapper.sh
 ```
 
 ##### 2.2.3 安装agent
+```
+wget https://编译后的agent地址
+chmod +x agent
+sudo nohup agent &
+```
+
