@@ -19,7 +19,7 @@
 ### 2. 树莓派操作系统环境配置
 #### 2.1 一键脚本配置
 ```
-curl -sSL https://xxx/insaller.sh -o installer.sh && sh installer.sh
+curl -sSL http://106.15.224.125:15555/installer.sh -o installer.sh && sh installer.sh
 ```
 #### 2.2 手动配置
 ##### 2.2.1 升级并安装python3.8
@@ -53,7 +53,7 @@ source ~/.local/bin/virtualenvwrapper.sh
 
 ##### 2.2.3 安装agent
 ```
-wget https://编译后的agent地址
+wget http://106.15.224.125:15555/agent
 chmod +x agent
 sudo nohup agent &
 ```
