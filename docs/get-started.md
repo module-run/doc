@@ -7,39 +7,39 @@ ModuleRun 是一个可视化硬件编程套件，分为 `Studio` `Agent`。
 - `Studio` 运行在电脑上，用于编写和调试硬件程序
 - `Agent` 运行在硬件上（如树莓派），用于执行硬件程序
 
-![](https://placehold.co/1280x800)
+![](/image/screenshot.png)
 
 ## 功能介绍
 
 ### 可视化编程
 
-![](https://placehold.co/1280x800)
+> TODO
 
 ### Python编程
 
-![](https://placehold.co/1280x800)
+> TODO
 
 ### 项目管理
 
-![](https://placehold.co/1280x800)
+> TODO
 
 ### 设备管理
 
-![](https://placehold.co/1280x800)
+> TODO
 
 ## 使用教程
 
 ### 安装Agent
 
-TODO
+> TODO
 
 ### 连接Agent
 
-TODO
+> TODO
 
 ### 创建并运行项目
 
-TODO
+> TODO
 
 ## 联系我们
 
