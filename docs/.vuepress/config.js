@@ -13,6 +13,7 @@ export default defineUserConfig({
         navbar: [
             {text: '首页', link: '/'},
             {text: '开始使用', link: '/get-started'},
+            {text: '常见问题', link: '/qa'},
             {text: '树莓派Agent', link: '/agent/raspberry-pi'},
             {text: '更新日志', link: '/change-log'},
         ],

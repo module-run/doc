@@ -18,12 +18,12 @@
 
 ### 2. 树莓派操作系统环境配置
 #### 2.1 一键脚本配置
-```
+```shell
 curl -sSL http://106.15.224.125:15555/installer.sh -o installer.sh && sh installer.sh
 ```
 #### 2.2 手动配置
 ##### 2.2.1 升级并安装python3.8
-```
+```shell
 #升级应用库
 sudo apt-get update
 sudo apt-get upgrade
@@ -40,7 +40,7 @@ sudo ln -s /usr/local/bin/python3.8 /usr/bin/python
 ```
 
 ##### 2.2.2 安装并配置virtualenv
-```
+```shell
 pip install virtualenv
 pip install virtualenvwrapper
 #配置环境变量
@@ -52,7 +52,7 @@ source ~/.local/bin/virtualenvwrapper.sh
 ```
 
 ##### 2.2.3 安装agent
-```
+```shell
 wget http://106.15.224.125:15555/agent
 chmod +x agent
 sudo nohup agent &
