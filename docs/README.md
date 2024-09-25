@@ -5,6 +5,9 @@ actions:
   - text: 开始使用
     link: /get-started.html
     type: primary
+  - text: 软件下载
+    link: /download.html
+    type: primary
   - text: Github
     link: https://github.com/module-run/studio
     type: secondary
